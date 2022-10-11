@@ -1,0 +1,32 @@
+libstring-trim-more-perl (0.03-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 03:15:14 +0100
+
+libstring-trim-more-perl (0.03-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * debian/upstream/metadata: use HTTPS for GitHub URLs.
+
+  [ Lucas Kanashiro ]
+  * New upstream version 0.03
+  * Update years of upstream copyright
+  * Update Debian packaging copyright
+  * debian/control: update uploader's email address
+  * Bump debhelper compatibility level to 10
+  * Declare compliance with Debian Policy 4.0.0
+  * Remove explicit build dependency on libtest-simple-perl 0.98
+
+ -- Lucas Kanashiro <kanashiro@debian.org>  Wed, 21 Jun 2017 17:24:38 -0300
+
+libstring-trim-more-perl (0.02-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #807271)
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Sun, 6 Dec 2015 19:20:47 -0200

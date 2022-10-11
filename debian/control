@@ -1,0 +1,21 @@
+Source: libstring-trim-more-perl
+Section: perl
+Priority: optional
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Kanashiro <kanashiro@debian.org>
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: perl
+Standards-Version: 4.0.0
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libstring-trim-more-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libstring-trim-more-perl.git
+Homepage: https://metacpan.org/release/String-Trim-More
+Testsuite: autopkgtest-pkg-perl
+
+Package: libstring-trim-more-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: Perl module with various string trimming utilities
+ String::Trim::More is an alternative to String::Trim (and similar modules).
+ Instead of a single trim function, this module provides several from which you
+ can choose on, depending on your needs.
